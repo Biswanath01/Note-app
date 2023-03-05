@@ -1,0 +1,17 @@
+.pinned-note-image:hover{
+    /* color: rgb(255, 132, 0); */
+}
+
+/* .pinned-note{
+    background-color: red;
+}.pinned-note :hover{
+    background-color: purple;
+} */
+.box > * {
+    flex: auto auto auto;
+  }
+
+
+
+
+

@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: rgb(133, 53, 223);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 2px solid white;
+  background: rgb(52, 6, 104);
+  transition: 1s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: rgb(238, 50, 81); */
+  background: rgb(239, 47, 47);
+  transition: 1s;
+}
+
